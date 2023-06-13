@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Assignment-2</title>
+  </head>
+  <body>
+    <a id="top"></a>
+    <header>
+      <nav>
+        <div class="navbar-container">
+          <div class="navbar-logo">Bahar Maadanian</div>
+          <ul class="navbar-menu">
+            <!-- <li><a href="#">Bahar Maadanian</a></li> -->
+            <li><a href="#home-section">Home</a></li>
+            <li><a href="#blog-section">Blog</a></li>
+            <li><a href="#contact-section">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="home-section">
+        <video class="video-frame" width="850" height="620" autoplay muted loop>
+          <source
+            src="/mixkit-young-engineer-programming-in-his-workshop-seen-up-close-29991-large.mp4"
+            type="video/mp4"
+          />
+        </video>
+
+        <div class="content">
+          <div class="centered">Welcome to Bahar's Corner!</div>
+        </div>
+        <p class="text-head">
+          This blog shows you the most important points of view about coding and
+          will help you to sharpen your coding skills. We will guide you in
+          choosing the best fit for your talent and interests.
+        </p>
+      </section>
+
+      <section id="blog-section" class="blog-grid">
+        <div class="blog-card">
+          <div class="image-section image-one"></div>
+          <div>
+            <h3>Process of Building Websites with CSS</h3>
+            <p>
+              One of the most notable benefits of CSS is the time it saves when
+              working on a site and when using a website. Website pages load
+              quickly, within a few ... <br />
+            </p>
+            <a href="post1.html">Read More</a>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <div class="image-section image-two"></div>
+          <div>
+            <h3>How to Become a Videogame Designer</h3>
+            <p>
+              The article How to become a video game designer promotes the idea
+              that anyone can participate in the creation of such games with
+              certain qualifications. The games...
+              <br />
+              <a href="post2.html">Read More</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <div class="image-section image-three"></div>
+          <div>
+            <h3>C++ and Java Programming Languages Comparison</h3>
+            <p>
+              C may be defined as a programming language made up of commands,
+              procedures, and constants. For starters, this language is easily
+              expandable, allowing for the ...
+            </p>
+            <a href="post3.html">Read More</a>
+          </div>
+        </div>
+      </section>
+      <!-- <section id="blog">
+        <h2>The Process of Building Websites with CSS</h2>
+        <div class="grid">
+          <div class="blog-post">
+            <img src="/1.jpg" alt="Blog Post 1" />
+            <h3>The Process of Building Websites with CSS</h3>
+            <p>
+              One of the most notable benefits of CSS is the time it saves when
+              working on a site and when using a website. Website pages load
+              quickly, within a few ...
+            </p>
+            <a href="post1.html">Read More</a>
+          </div>
+          <div class="blog-post">
+            <img src="/2.jpg" alt="Blog Post 2" />
+            <h3>How to Become a Videogame Designer</h3>
+            <p>
+              The article How to become a video game designer promotes the idea
+              that anyone can participate in the creation of...
+              <a href="post2.html">Read More</a>
+            </p>
+          </div>
+
+          <div class="blog-post">
+            <img src="/3.jpg" alt="Blog Post 3" />
+            <h3>C++ and Java Programming Languages Comparison</h3>
+            <p>
+              C may be defined as a programming language made up of commands,
+              procedures, and constants. For starters, this language is easily
+              expandable, allowing for the ...
+            </p>
+            <a href="post3.html">Read More</a>
+          </div>
+        </div>
+      </section> -->
+      <!-- <section class="blog"></section> -->
+      <div id="contact-section" class="contact-form">
+        <h2>Contact Us</h2>
+        <form method="POST" action="contact.php">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <input type="submit" value="Send Message" />
+        </form>
+        <!-- Back to Top button -->
+      </div>
+      <button class="top"><a href="#top">&uarr;</a></button>
+    </main>
+
+    <footer>
+      <ul class="footer-social">
+        <li>
+          <a class="icon" href="#"
+            ><img src="facebook.png" alt="Facebook" width="50px"
+          /></a>
+        </li>
+        <li>
+          <a class="icon" href="#"
+            ><img src="twitter.png" alt="Twitter" width="50px"
+          /></a>
+        </li>
+        <li>
+          <a href="#" class="icon"
+            ><img src="instagram.png" alt="Instagram" width="50px"
+          /></a>
+        </li>
+        <li>
+          <a class="icon" href="#"
+            ><img src="github.png" alt="GitHub" width="50px"
+          /></a>
+        </li>
+        <p class="footer-buttom">
+          &copy; 2023 Tech Blog. All rights reserved For Bahar.
+        </p>
+      </ul>
+    </footer>
+  </body>
+</html>
